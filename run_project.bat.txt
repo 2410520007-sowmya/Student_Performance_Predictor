@@ -1,0 +1,5 @@
+@echo off
+call conda activate student_ai
+cd /d "%~dp0"
+streamlit run app.py
+pause
